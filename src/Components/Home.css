@@ -1,0 +1,108 @@
+/* Global styles for Home and Navbar */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+  }
+  
+  .navbar .search-bar {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Home Page Styles */
+  .home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Recipe Card Styles */
+  .recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .recipe-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-card p {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .recipe-card .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  /* View Recipe Button */
+  .view-recipe-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-recipe-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Delete Recipe Button */
+  .delete-recipe-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-recipe-btn:hover {
+    background-color: #e53935;
+  }
+  
+  .delete-recipe-btn:focus {
+    outline: none;
+  }
+  
